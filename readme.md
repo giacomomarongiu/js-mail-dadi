@@ -17,10 +17,10 @@ Usiamo un input e un bottone per inserire la mail e poi mostriamo i risultati in
 - Mail
 -- Dichiaro un array con all'interno una serie di stringhe
 -- Dichiaro una variabile 
--- Assegna a questa variabile un valore tramite input
+-- Assegno a questa variabile un valore tramite input
 -- Confronto ogni elemento dell'array con l'input
--- SE è tra i miei array -> True
--- SE NO -> False
+-- SE è tra i miei array -> True -> Non mi interessa continuare e faccio finire l'iter
+-- SE NO -> False e continuo l'iter
 
 
 ### Tools
