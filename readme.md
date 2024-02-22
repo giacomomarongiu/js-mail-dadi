@@ -22,6 +22,13 @@ Usiamo un input e un bottone per inserire la mail e poi mostriamo i risultati in
 -- SE è tra i miei array -> True -> Non mi interessa continuare e faccio finire l'iter
 -- SE NO -> False e continuo l'iter
 
+- Gioco dei dadi
+-- Dichiaro due variabili
+-- Attivo il tiro dei dadi con un pulsante
+-- Assegno loro un valore random
+-- Confronto i due valori
+-- Dichiaro il vincitore o il pareggio
+
 
 ### Tools
 - Mail

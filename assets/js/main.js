@@ -1,5 +1,8 @@
 console.log("Ciao, il tuo js è ben collegato");
 
+
+
+//MAIL
 //Dichiaro un array con all'interno una serie di stringhe
 let mails = ['pippo@gmail.com', 'pippobaudo@gmail.com',
     'pippofranco@gmail.com', 'pippoganna@gmail.com'];
@@ -30,4 +33,30 @@ document.querySelector('.my_button').addEventListener('click', function () {
     }
     console.log(result);
 
+})
+
+
+
+//GIOCO DEI DADI
+
+//Dichiaro due variabili
+//Attivo il tiro dei dadi con un pulsante
+document.querySelector('.lucky_button').addEventListener('click', function () {
+    let user_number = 0;
+    let pc_number = 0;
+    //Assegno loro un valore random
+    user_number = Math.floor(Math.random() * 7);
+    console.log("Hai inserito i seguenti valori", user_number);
+    pc_number = Math.floor(Math.random() * 7);
+    console.log("Hai inserito i seguenti valori", pc_number);
+
+    //Confronto i due valori
+    //Dichiaro il vincitore o il pareggio
+    if (user_number>pc_number){
+        console.log("Hai vinto!");
+    } else if(user_number<pc_number){
+        console.log("Ha vinto l'IA!");
+    } else{
+        console.log("Pareggio!");
+    }
 })
