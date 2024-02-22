@@ -77,12 +77,12 @@ document.querySelector('.lucky_button').addEventListener('click', function () {
         //Stampo con un Alert
         alert("HAI VINTO " + user_number + " a " + pc_number)
     } else if (user_number < pc_number) {
-        console.log("Ha vinto l'IA!");
+        console.log("Ha vinto l'IA! ");
         //Stampo con un Alert
         alert("L' IA HANNO VINTO " + pc_number + " a " + user_number)
     } else {
-        console.log("Pareggio!");
+        console.log("Pareggio! ");
         //Stampo con un Alert
-        alert("PAREGGIO" + pc_number + " a " + user_number)
+        alert("PAREGGIO " + pc_number + " a " + user_number)
     }
 })
