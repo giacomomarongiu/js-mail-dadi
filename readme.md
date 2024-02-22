@@ -29,6 +29,11 @@ Usiamo un input e un bottone per inserire la mail e poi mostriamo i risultati in
 -- Confronto i due valori
 -- Dichiaro il vincitore o il pareggio
 
+-Bonus
+-- Dichiaro una variabile e la collego all'elemento del DOM in cui voglio che esca il risultato
+-- Creo un Elemento attraverso una variabile appena finisco le verifiche
+-- SE è TRUE -> CODICE
+-- SE NO -> ALTRO CODICE
 
 ### Tools
 - Mail
