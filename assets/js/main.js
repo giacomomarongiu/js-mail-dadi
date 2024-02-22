@@ -40,7 +40,7 @@ document.querySelector('.my_button').addEventListener('click', function () {
     // Creo un Elemento attraverso una variabile appena finisco le verifiche
     const addresultElement = document.createElement('div');
     if (result == true) {
-        //SE è TRUE -> CODICE
+        //SE è Result è TRUE -> CODICE
         addresultElement.innerHTML =
             `<div class="col-12 py-2 px-5"> <div class="card bg-success">
         <p class="fw-bold text-center">SEI DEI NOSTRI</p></div></div>`;
